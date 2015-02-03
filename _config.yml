@@ -1,0 +1,16 @@
+# Site settings
+title: sham.software
+email: ryan.hoegg@gmail.om
+description: > # this means to ignore newlines until "baseurl:"
+  APIs are great, and writing code to use them is probably something many of us do a lot.
+  This software is for those of us who want to write isolated tests for our code that
+  consumes HTTP based APIs.  You can use sham-http to roll your own mock HTTP or HTTPS
+  server, which runs in process with your code.  We also have prebuilt some API mocks such
+  as Salesforce and Jira.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sham.software" # the base hostname & protocol for your site
+twitter_username: rhoegg
+github_username:  rhoegg
+
+# Build settings
+markdown: kramdown
